@@ -82,23 +82,9 @@ namespace Proyecto_3_TABD
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            //txtboxIdConsumo.Text = dataGridView1[0,e.RowIndex].Value.ToString();
             if (e.RowIndex >= 0)
             {
-                //DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
-                //Console.WriteLine("DataGridRow");
-                //for(int i=0;i<row.Cells.Count;i++)
-                //{
-                //    Console.WriteLine(row.Cells[i].Value);
-                //}
-                //Console.WriteLine("Selected Cells");
-                //for (int i = 0; i < dataGridView1.SelectedCells.Count; i++)
-                //{
-                //    Console.WriteLine(dataGridView1.SelectedCells[i].Value);
-                //}
-
                 String mes = dataGridView1.SelectedCells[2].Value.ToString();
-
 
                 if (Int32.Parse(dataGridView1.SelectedCells[2].Value.ToString()) < 10)
                 {
